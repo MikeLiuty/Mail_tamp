@@ -1,0 +1,237 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+  <style>
+    /* PUT ALL CSS IN THE EMAIL <HEAD>*/
+
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      width: 100% !important;
+      background-color: #e7e7e7;
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      margin: 0 !important;
+      padding: 0 !important;
+      font-family: Helvetica;
+    }
+
+    .ReadMsgBody {
+      width: 100%;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    ol li {
+      margin-bottom: 15px;
+    }
+
+    img {
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+    }
+
+    #backgroundTable {
+      height: 100% !important;
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+    }
+
+    p {
+      margin: 1em 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #f7b401
+    }
+
+    .detail {
+      font-size: 18px;
+      width: 100%;
+      padding: 10px;
+      background-color: #eee;
+      border: 1px solid;
+      border-collapse: collapse;
+    }
+
+    table.detail td {
+      padding: 10px;
+      border: 1px solid;
+      border-collapse: collapse;
+    }
+
+    div[id="tablewrap"] {
+      width: 100%;
+      max-width: 600px !important;
+    }
+
+    table[class="fulltable"],
+    td[class="fulltd"] {
+      max-width: 100% !important;
+      width: 100% !important;
+      height: auto !important;
+    }
+
+    @media screen and (max-device-width: 430px),
+    screen and (max-width: 430px) {
+      td[class=emailcolsplit] {
+        width: 100% !important;
+        float: left !important;
+        padding-left: 0 !important;
+        max-width: 430px !important;
+      }
+      td[class=emailcolsplit] img {
+        margin-bottom: 20px !important;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    ul li {
+      display: inline;
+      padding-right: 35px;
+      width: 30px;
+    }
+
+    ul li img {
+      width: 35px;
+    }
+  </style>
+</head>
+
+<body>
+  <table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="height:auto !important; margin:0; padding:0; width:100% !important; background-color:#FFFFFF; color:#222222;">
+    <tr>
+      <td>
+        <div id="tablewrap" style="width:100% !important; max-width:600px !important; text-align:center !important; margin-top:0 !important; margin-right: auto !important; margin-bottom:0 !important; margin-left: auto !important;">
+          <table id="contenttable" width="600" align="center" style="text-align:center !important;   width: 100% !important; max-width:600px !important;">
+            <tr>
+              <td width="100%">
+                <table bgcolor="#FFFFFF" border="0" cellspacing="0" cellpadding="0" width="100%">
+                  <tr>
+                    <td width="55%" bgcolor="#ffffff"><a href="#"><img src="cid:logo" alt="Main banner image and link" style="display:inline-block;  width:100% !important; height:auto !important;" border="0"></a>
+                    </td>
+                    <td width="45%" bgcolor="#ffffff"><a href="#"></a>
+                    </td>
+                  </tr>
+                </table>
+
+                <table width="100%">
+                  <tr>
+                    <td width="100%" bgcolor="#ffffff" style="text-align:left;">
+                      <p style="color:#222222;font-size:18px; line-height:25px; margin-top:0; margin-bottom:20px; padding:0; font-weight:normal;">
+                        Dear '.$fdname.',
+                      </p>
+                      <p style="color:#222222;font-size:18px; line-height:25px; margin-top:0; margin-bottom:20px; padding:0;">
+                        You have a new booking request on Easytour!
+                        <br>
+
+                      </p>
+                      <table width="100%">
+                        <tr>
+                          <td valign="top" width="100%">
+                            <h3 style="color:#989898">Booking Details：</h3>
+                            <table class="detail">
+                              <tr>
+                                <td width="20%">Booking reference</td>
+                                <td>'.$order.'</td>
+                              </tr>
+                              <tr>
+                                <td width="20%">Property</td>
+                                <td>'.$roomname.'</td>
+                              </tr>
+                              <tr>
+                                <td width="20%">Occupants</td>
+                                <td>'.$number.'</td>
+                              </tr>
+                              <tr>
+                                <td width="20%">Arrive on</td>
+                                <td>'.$newKs.'</td>
+                              </tr>
+                              <tr>
+                                <td width="20%">Depart on</td>
+                                <td>'.$newJs.'</td>
+                              </tr>
+                              <tr>
+                                <td width="20%">Nights</td>
+                                <td>'.$date.'</td>
+                              </tr>
+                              <tr>
+                                <td width="20%">Message</td>
+                                <td style="max-width:200px">'.$guest_message.'</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table bgcolor="#FFFFFF" border="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="100%" bgcolor="#ffffff" style="text-align:left;">
+                      <h3 style="color:#4CAF50">What to do next?</h3>
+                      <p>
+                        Please login to your Easytour account to check the availability of the property and reply to your guest.
+                      </p>
+                      <p>
+                         This booking request is expected to be processed within 24 hours. </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <table bgcolor="#FFFFFF" border="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="100%" bgcolor="#ffffff" style="text-align:left;">
+                      <p style="font-size:18px;">Kind regards,<br>The Easytour Team</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="50%" bgcolor="#ffffff" style="text-align:center;">
+                      <a style="font-weight:bold; text-decoration:none;" href="https://www.easytour.co.nz/index.php/index/loginfd.html">
+                        <div style="display:inline-block;height:auto !important;background-color:#4CAF50;padding:15px;border-radius:8px;color:#ffffff;font-size:16px;font-family:Arial, Helvetica, sans-serif;">Log in as an owner</div>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <table bgcolor="#FFFFFF" border="0" cellspacing="0" width="100%">
+                  <tr style="text-align:center;padding:20px;">
+                    <td width="100%" style="color:#A9A9A9;font-size:13px; line-height:14px;  margin-bottom:15px; padding-top:50px; font-weight:normal;">Follow Easytour on
+                      <ul>
+                        <li><a target="_blank" href="https://www.facebook.com/EasytourNZ"><img src="cid:facebook"></a></li>
+                        <li><a target="_blank" href="https://www.twitter.com/EasytourNZ"><img src="cid:twitter"></a></li>
+                      </ul>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td width="100%" bgcolor="#ffffff" style="text-align:center;">
+                      <p style="color:#A9A9A9;font-size:11px; line-height:14px; margin-top:0; margin-bottom:15px; padding:0; font-weight:normal;">This email was sent by Easytour Ltd AKL,NZ<br>Need help?<span style="color:#000000"> Please contact us: +64 (09) 379 2672 </span>
+                      </p>
+                      <p style="color:#A9A9A9;font-size:11px; line-height:14px; margin-top:0; margin-bottom:15px; padding:0; font-weight:normal;">
+                        Copyright 2018 Easytour. All Rights Reserved.<br>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
